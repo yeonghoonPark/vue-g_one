@@ -1,0 +1,25 @@
+<template>
+  <button class="fancy-btn">
+    <slot></slot>
+  </button>
+</template>
+
+<script>
+export default {
+  setup() {
+    return {};
+  },
+};
+</script>
+
+<style scoped>
+.fancy-btn {
+  color: aliceblue;
+  background: linear-gradient(315deg, #42d392 25%, #6472ff);
+  border: none;
+  padding: 5px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+</style>
