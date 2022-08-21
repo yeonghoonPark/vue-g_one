@@ -7,13 +7,10 @@
 <script>
 export default {
   inheritAttrs: false,
+  setup() {
+    return {};
+  },
 };
-</script>
-
-<script setup>
-import { ref } from "vue";
-
-const message = ref("message");
 </script>
 
 <style lang="scss" scoped></style>
